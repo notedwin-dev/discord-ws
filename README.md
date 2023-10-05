@@ -6,7 +6,7 @@
 ```
 BOT_TOKEN="YOUR_BOT_TOKEN_HERE"
 ```
-2. Specify your intents as an array in line 20 of [index.js](./index.js). Use the Intents Calculator to calculate the needed permissions for you to use the Discord Gateway properly. You can access the available intents by typing `intents.` followed by the required intents for your bot to work using this gateway. Example:
+2. Specify your intents as an array in line 22 of [index.js](./index.js#L22). Use the Intents Calculator to calculate the needed permissions for you to use the Discord Gateway properly. You can access the available intents by typing `intents.` followed by the required intents for your bot to work using this gateway. Example:
 ```js
 /* Calculates the intents of the bot. */
 const myIntents = IntentsCalculator.Calculate([intents.GUILD_MESSAGES, intents.MESSAGE_CONTENT, intents.DIRECT_MESSAGES]);
