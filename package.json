@@ -1,5 +1,5 @@
 {
-  "name": "discord-ws",
+  "name": "@notedwin/discord-ws",
   "version": "1.0.0",
   "description": "Easily establish connections to Discord gateways without worrying about making your own event triggers!",
   "main": "index.js",
